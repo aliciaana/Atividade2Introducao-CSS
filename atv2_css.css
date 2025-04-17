@@ -1,0 +1,50 @@
+header{
+    height: 50px; 
+    padding: 20px;  
+    border: 5px solid green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+nav{
+
+    padding: 20px;
+    border: 5px solid yellow;
+    width: 50%;
+}
+main{
+    height: 500px;
+    padding: 20px;
+    border: 5px solid green;
+    display: flex;  
+    justify-content: space-between;   
+    gap: 20px;
+ 
+
+}
+section{
+    padding: 20px;
+    border: 5px solid yellow;
+    width: 100%;
+    margin-bottom: 10px; 
+    
+}
+article{
+    padding: 20px;
+    border: 5px solid blue;
+    margin-top: 10px;
+}
+aside{
+    padding: 20px;
+    border: 5px solid yellow;
+    width: 300px;
+}
+aside section{
+    padding: 20px;
+    border: 5px solid blue;
+}
+footer{
+    padding: 20px;
+    border: 5px solid green;
+}
