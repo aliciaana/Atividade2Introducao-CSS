@@ -12,3 +12,5 @@ Flexbox é mais indicado para layouts lineares, ou seja, estruturas em linha ou 
 CSS Grid é ideal para layouts bidimensionais, oferecendo maior controle sobre o posicionamento dos elementos, além de facilitar a criação de áreas fixas como main, aside, etc.
 A combinação de Grid com Flexbox proporciona um layout mais modular, organizado e com melhor manutenção de código, especialmente em projetos com maior complexidade.
 Em termos de responsividade, o Grid oferece recursos mais avançados, como o uso de minmax() e auto-fit, o que reduz a dependência de muitas media queries.
+
+**[Clique aqui para ver o projeto publicado]( https://aliciaana.github.io/Atividade2Introducao-CSS/ )**
