@@ -43,7 +43,7 @@
     border: 5px solid green;
     padding: 20px;
     color: green;
-    align-items: stretch; /* Faz as colunas se igualarem em altura */
+    align-items: stretch;
   }
   
   .coluna-esquerda,
@@ -84,7 +84,6 @@
     border: 5px solid blue;
     color: blue;
     padding: 20px;
-    flex: 1; /* Faz as seções do aside ocuparem a mesma altura */
   }
   
   footer {
