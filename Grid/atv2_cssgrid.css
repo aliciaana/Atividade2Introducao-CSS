@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    background-color: black
+  }
+  
+  .container {
+    display: grid;
+    grid-template-areas: 
+      "header"
+      "main"
+      "footer";
+    grid-template-rows: auto 1fr auto;
+    gap: 20px;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  header {
+    grid-area: header;
+    border: 5px solid green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: green;
+  }
+  
+  nav {
+    width: 50%;
+    border: 5px solid yellow;
+    padding: 20px;
+    color: yellow;
+  }
+  
+  main {
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    border: 5px solid green;
+    padding: 20px;
+    color: green;
+    align-items: stretch; /* Faz as colunas se igualarem em altura */
+  }
+  
+  .coluna-esquerda,
+  aside {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .esquerda-superior {
+    border: 5px solid yellow;
+    padding: 20px;
+    height: 400px;
+    color: yellow;
+  }
+  
+  .esquerda-superior article {
+    border: 5px solid blue;
+    padding: 20px;
+    margin-bottom: 5px;
+    color: blue;
+  }
+  
+  .esquerda-inferior {
+    border: 5px solid yellow;
+    padding: 20px;
+    color: yellow;
+  }
+  
+  aside {
+    border: 5px solid yellow;
+    padding: 20px;
+    color: yellow;
+  }
+  
+  aside section {
+    border: 5px solid blue;
+    color: blue;
+    padding: 20px;
+    flex: 1; /* Faz as seções do aside ocuparem a mesma altura */
+  }
+  
+  footer {
+    grid-area: footer;
+    border: 5px solid green;
+    color: green;
+    padding: 20px;
+  }
+  
