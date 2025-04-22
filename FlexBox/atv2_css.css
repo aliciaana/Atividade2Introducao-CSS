@@ -70,12 +70,33 @@ aside section {
     margin-top: 10px;
     color: blue;
 }
-
-
 footer {
     padding: 20px;
     border: 5px solid green;
     font-weight: bold;
     color: green;
 }
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
 
+    nav {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    aside {
+        width: 100%;
+    }
+
+    aside section {
+        display: inline-block;
+        width: 30%;
+    }
+}
